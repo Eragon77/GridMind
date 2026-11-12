@@ -7,7 +7,10 @@ authors = [
     { name = "Luca", email = "lquare04@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "pandas>=3.1.1",
+    "requests>=2.34.2",
+]
 
 [project.scripts]
 gridmind = "gridmind:main"
